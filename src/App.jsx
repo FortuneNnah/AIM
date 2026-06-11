@@ -7,6 +7,7 @@ const galleryImages = [
   '/src/assets/imgs/img3.jpg',
   '/src/assets/imgs/img4.jpg',
   '/src/assets/imgs/img5.jpg',
+  '/src/assets/imgs/img2.jpg',
 ]
 
 const services = [
@@ -56,12 +57,12 @@ function App() {
           </div>
         </div>
         <button
-          className="mobile-nav-toggle"
+          className={`mobile-nav-toggle ${menuOpen ? 'open' : ''}`}
           onClick={() => setMenuOpen((open) => !open)}
           aria-expanded={menuOpen}
-          aria-label="Toggle navigation"
+          aria-label={menuOpen ? 'Close navigation' : 'Open navigation'}
         >
-          {menuOpen ? 'Close' : 'Menu'}
+          <span className="hamburger" aria-hidden="true" />
         </button>
         <nav className={menuOpen ? 'open' : ''}>
           <a href="#home">Home</a>
@@ -172,7 +173,10 @@ function App() {
               <h2>Reach out for availability and production details.</h2>
               <p>Fast replies, custom proposals, and polished delivery for every session.</p>
             </div>
-            <a className="button button-primary" href="mailto:hello@apertureprime.com">hello@apertureprime.com</a>
+            <a className="button button-primary" href="mailto:Fortunenotes667@gmail.com">Send a mail!</a>
+            <a className="button button-secondary" href="https://wa.me/2349129062499?text=Hello%20AIM%20Photgraphy,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer">
+              Contact me directly on Whatsapp!
+            </a>
           </div>
         </section>
       </main>

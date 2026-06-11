@@ -251,5 +251,3 @@ This project is a professional portfolio website. Please ensure appropriate lice
 For inquiries about photography services or website customization, please reach out to the portfolio owner through the contact section on the website.
 
 ---
-
-**Built with ❤️ using React and Vite**
