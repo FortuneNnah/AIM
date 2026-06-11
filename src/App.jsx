@@ -179,8 +179,7 @@ function App() {
               <h2>Reach out for availability and production details.</h2>
               <p>Fast replies, custom proposals, and polished delivery for every session.</p>
             </div>
-            <a className="button button-primary" href="mailto:Fortunenotes667@gmail.com">Send a mail!</a>
-            <a className="button button-secondary" href="https://wa.me/2349129062499?text=Hello%20AIM%20Photgraphy,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer">
+            <a className="button button-primary" href="https://wa.me/2349129062499?text=Hello%20AIM%20Photgraphy,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer">
               Contact me directly on Whatsapp!
             </a>
           </div>
