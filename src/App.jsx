@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import './App.css'
+import img1 from './assets/imgs/img1.jpg'
+import img2 from './assets/imgs/img2.jpg'
+import img3 from './assets/imgs/img3.jpg'
+import img4 from './assets/imgs/img4.jpg'
+import img5 from './assets/imgs/img5.jpg'
+import img6 from './assets/imgs/img6.avif'
 
 const galleryImages = [
-  '/src/assets/img1.jpg',
-  '/src/assets/img2.jpg',
-  '/src/assets/img3.jpg',
-  '/src/assets/img4.jpg',
-  '/src/assets/img5.jpg',
-  '/src/assets/img6.avif',
+  img1, 
+  img2, 
+  img3, 
+  img4, 
+  img5, 
+  img6
 ]
 
 const services = [
