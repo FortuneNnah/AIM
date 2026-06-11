@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './App.css'
 
 const galleryImages = [
-  '/src/assets/imgs/img1.jpg',
-  '/src/assets/imgs/img2.jpg',
-  '/src/assets/imgs/img3.jpg',
-  '/src/assets/imgs/img4.jpg',
-  '/src/assets/imgs/img5.jpg',
-  '/src/assets/imgs/img2.jpg',
+  '/src/assets/img1.jpg',
+  '/src/assets/img2.jpg',
+  '/src/assets/img3.jpg',
+  '/src/assets/img4.jpg',
+  '/src/assets/img5.jpg',
+  '/src/assets/img6.avif',
 ]
 
 const services = [
