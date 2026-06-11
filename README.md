@@ -62,7 +62,7 @@ AIM/
 
 1. **Clone the repository** (if applicable)
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/FortuneNnah/AIM
    cd AIM
    ```
 
