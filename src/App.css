@@ -48,7 +48,7 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 18px;
-  padding: 16px 18px;
+  padding: 12px 14px;
   border-radius: 24px;
   background: rgba(18, 18, 18, 0.95);
   border: 1px solid var(--border);
@@ -64,11 +64,11 @@ a {
 }
 
 .brand-mark {
-  width: 54px;
-  height: 54px;
+  width: 48px;
+  height: 48px;
   display: grid;
   place-items: center;
-  border-radius: 18px;
+  border-radius: 20px;
   background: #fff;
   color: #000;
   font-weight: 800;
@@ -231,6 +231,10 @@ section {
   background: #fff;
   color: #000;
 }
+.button-tertiary {
+  background: rgb(5, 213, 5);
+  color: #fff;
+}
 
 .button-secondary {
   background: transparent;
@@ -271,21 +275,21 @@ section {
 }
 
 .hero-photo-1 {
-  background-image: url('/src/assets/imgs/img3.jpg');
+  background-image: url('/src/assets/imgs/img3.webp');
   grid-column: span 1;
   grid-row: span 2;
   animation: floatUp 8s ease-in-out infinite;
 }
 
 .hero-photo-2 {
-  background-image: url('/src/assets/imgs/img5.jpg');
+  background-image: url('/src/assets/imgs/img5.webp');
   grid-column: span 2;
   grid-row: span 1;
   animation: floatUp 9s ease-in-out infinite reverse;
 }
 
 .hero-photo-3 {
-  background-image: url('/src/assets/imgs/img1.jpg');
+  background-image: url('/src/assets/imgs/img1.webp');
   grid-column: span 2;
   grid-row: span 2;
   animation: floatUp 7.5s ease-in-out infinite;
@@ -461,7 +465,7 @@ section {
   }
 
   .site-header {
-    padding: 10px 16px;
+  padding: 12px 14px;
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;

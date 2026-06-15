@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import img1 from './assets/imgs/img1.jpg'
-import img2 from './assets/imgs/img2.jpg'
-import img3 from './assets/imgs/img3.jpg'
-import img4 from './assets/imgs/img4.jpg'
-import img5 from './assets/imgs/img5.jpg'
-import img6 from './assets/imgs/img6.avif'
+import img6 from './assets/imgs/img6.webp'
+import img7 from './assets/imgs/img7.webp'
+import img8 from './assets/imgs/img8.webp'
+import img5 from './assets/imgs/img5.webp'
+import img10 from './assets/imgs/img10.webp'
+import img4 from './assets/imgs/img4.webp'
 
 const galleryImages = [
-  img1, 
-  img2, 
-  img3, 
-  img4, 
+  img6,
+  img7, 
+  img8, 
   img5, 
-  img6
+  img10, 
+  img4
 ]
 
 const services = [
@@ -179,7 +179,7 @@ function App() {
               <h2>Reach out for availability and production details.</h2>
               <p>Fast replies, custom proposals, and polished delivery for every session.</p>
             </div>
-            <a className="button button-primary" href="https://wa.me/2349129062499?text=Hello%20AIM%20Photgraphy,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer">
+            <a className="button button-tertiary" href="https://wa.me/2349129062499?text=Hello%20AIM%20Photgraphy,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" rel="noopener noreferrer">
               Contact me directly on Whatsapp!
             </a>
           </div>
